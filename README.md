@@ -74,3 +74,47 @@ No constituye recomendación de inversión ni asesoramiento financiero.
 
 ## 👤Autora
 Flavia Hepp Proyecto de SQL aplicó un análisis de riesgo basado en eventos.
+***
+📊 **No todos los dividendos impactan igual… depende del sector**
+
+Cuando una empresa paga dividendos, el mercado suele ajustar el precio.
+Pero ese ajuste no es uniforme.
+
+👉 Analicé el **impacto de eventos de dividendos en el precio de apertura**, midiendo el *gap* respecto al cierre del día anterior.
+
+💡 **Insight clave:**
+Hay sectores donde los dividendos generan **gaps más pronunciados**, lo que revela una mayor sensibilidad del mercado a este tipo de evento.
+
+---
+
+📈 **¿Qué medí?**
+
+* Precio de apertura el día del evento
+* Precio de cierre del día previo
+* Gap porcentual (*Open vs. Close previo*)
+* Promedio por sector
+
+---
+
+🧠 **¿Cómo interpretarlo?**
+
+* Mayor gap → mayor ajuste del mercado al dividendo
+* Menor gap → evento más “descontado”
+* Diferencias sectoriales → distintos perfiles de inversores y expectativas
+
+---
+
+⚡ **¿Por qué importa?**
+
+Porque permite entender:
+
+* Qué sectores son más sensibles a flujos de caja
+* Dónde el mercado reacciona de forma más abrupta
+* Cómo ajustar estrategias *event-driven* según contexto
+
+---
+
+📌 Pregunta para la comunidad:
+¿Consideran el impacto de dividendos al operar… o lo ven como un ajuste puramente técnico?
+
+#QuantFinance #Trading #DataScience #StockMarket #Dividends #Analytics #SQL #Investing
